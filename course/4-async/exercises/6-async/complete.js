@@ -3,11 +3,9 @@ async function getItemData() {
   return response.json()
 }
 
-// don't touch below this line
+const a = getItemData()
 
-const items = await getItemData()
-
-logItems(items)
+a.then((ans2) => logItems(ans2))
 
 function getSettings() {
   return {
