@@ -4,6 +4,7 @@ function parseLocation(locationString) {
     printLocationObj(parsed)
   } catch (err) {
     console.log('invalid json string')
+    console.log("hiiii")
   }
 }
 
